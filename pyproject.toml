@@ -7,8 +7,12 @@ requires-python = ">=3.12"
 dependencies = [
     "autogen-agentchat>=0.4.7",
     "autogen-ext[openai]>=0.4.7",
+    "ipywidgets>=8.1.5",
     "langchain-experimental>=0.3.4",
+    "markdown>=3.7",
     "pandas>=2.2.3",
+    "pdfkit>=1.0.0",
+    "pypdf2>=3.0.1",
     "python-dotenv>=1.0.1",
 ]
 
