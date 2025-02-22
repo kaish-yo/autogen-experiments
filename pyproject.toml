@@ -1,0 +1,19 @@
+[project]
+name = "base-jupyter"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "autogen-agentchat>=0.4.7",
+    "autogen-ext[openai]>=0.4.7",
+    "langchain-experimental>=0.3.4",
+    "pandas>=2.2.3",
+    "python-dotenv>=1.0.1",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+    "jupyterlab>=4.3.5",
+]

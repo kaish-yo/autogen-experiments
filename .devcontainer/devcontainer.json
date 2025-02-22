@@ -1,0 +1,22 @@
+{
+  "name": "JupyterLab Dev Container",
+  "build": {
+    "dockerfile": "../Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "github.copilot",
+        "ms-toolsai.jupyter",
+        "charliermarsh.ruff",
+        "donjayamanne.python-extension-pack",
+        "redhat.vscode-yaml",
+        "christian-kohler.path-intellisense",
+        "codezombiech.gitignore",
+        "ms-azuretools.vscode-docker"
+      ]
+    }
+  },
+  "forwardPorts": [8888],
+  "remoteUser": "root"
+}
